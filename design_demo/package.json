@@ -24,7 +24,7 @@
     }
   },
   "lint-staged": {
-    "*.scss": "yarn stylelint"
+    "*.scss": "npm run stylelint"
   },
   "eslintConfig": {
     "extends": [
