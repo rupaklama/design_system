@@ -1,1 +1,32 @@
 // This file is going to contain Global Configuration that require for any team using Design System.
+
+/*------------------------------------*\
+    TABLE OF CONTENTS
+\*------------------------------------*/
+
+// This file is going to take care of two things - Foundations & Base
+/**
+ *
+ * FOUNDATIONS................................................
+ * BASE.......................................................
+ */
+
+/*=============================================
+ =                   Foundations               =
+ =============================================*/
+
+// Exposing everything we define in 'foundation' directory
+@import "foundation/all";
+
+/*==============================================
+  =                   Base                      =
+  =============================================*/
+// Going to contain two things.
+@import "base/reset"; // styles that provide a clean default look for our project
+@import "base/root"; // css root variables
+
+body {
+  font-family: $body-font-family;
+  font-size: $body-font-size;
+  font-weight: $body-font-weight;
+}

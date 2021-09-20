@@ -1,0 +1,25 @@
+// $primary-color: steelblue;
+
+// to use variables like above in the 'Partial' Sass file (_variables.scss)
+// note - when importing file, no need of _ or take it off from file name here
+// that way this file won't get compiled into basic css
+@import "./shared/scss/global";
+
+body {
+  // using mixins
+  @include tablet {
+    font-size: 14px;
+  }
+  @include laptop {
+    font-size: 16px;
+  }
+  @include desktop {
+    font-size: 18px;
+  }
+}
+
+header {
+  background-color: $green-light;
+  color: $body-text-color;
+  margin: map-get($map: $spacing, $key: sm);
+}
