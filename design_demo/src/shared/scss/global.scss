@@ -16,14 +16,14 @@
  =============================================*/
 
 // Exposing everything we define in 'foundation' directory
-@import "foundation/all";
+@import 'foundation/all';
 
 /*==============================================
   =                   Base                      =
   =============================================*/
 // Going to contain two things.
-@import "base/reset"; // styles that provide a clean default look for our project
-@import "base/root"; // css root variables
+@import 'base/reset'; // styles that provide a clean default look for our project
+@import 'base/root'; // css root variables
 
 body {
   font-family: $body-font-family;

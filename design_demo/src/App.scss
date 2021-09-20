@@ -3,7 +3,7 @@
 // to use variables like above in the 'Partial' Sass file (_variables.scss)
 // note - when importing file, no need of _ or take it off from file name here
 // that way this file won't get compiled into basic css
-@import "./shared/scss/global";
+@import './shared/scss/global';
 
 body {
   // using mixins
@@ -17,8 +17,6 @@ body {
     font-size: 18px;
   }
 }
-
-h1 {}
 
 header {
   background-color: $green-light;
