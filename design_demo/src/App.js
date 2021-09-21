@@ -1,4 +1,5 @@
 import './App.scss';
+import Color from './shared/scss/atoms/color/Color';
 
 function App() {
   return (
